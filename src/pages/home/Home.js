@@ -6,6 +6,10 @@ from 'antd';
 import Lmap from '../../components/map/Lmap';
 import Panel from '../../components/panel/Panel';
 import Rtable from './Rtable';
+import {
+	md_ajax
+}
+from '../../md-service'
 
 const data = [{
 	key: '1',
@@ -38,6 +42,15 @@ const data = [{
 }];
 
 export default class Home extends React.Component {
+	componentWillMount() {
+		md_ajax.get('./data.json', {
+			cache: true
+		}).then((data) => {
+			alert(data.data)
+		}).catch((msg) => {
+			alert(msg)
+		})
+	}
 	render() {
 		return <Panel>
 				<Row gutter={16}>
