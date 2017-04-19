@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 894:
+/***/ 919:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -23,7 +23,7 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	__webpack_require__(895);
+	__webpack_require__(920);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -51,29 +51,29 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 895:
+/***/ 920:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 913:
+/***/ 938:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	var _css = __webpack_require__(914);
+	var _css = __webpack_require__(939);
 	
-	var _icon = __webpack_require__(426);
+	var _icon = __webpack_require__(626);
 	
 	var _icon2 = _interopRequireDefault(_icon);
 	
-	var _css2 = __webpack_require__(915);
+	var _css2 = __webpack_require__(940);
 	
-	var _progress = __webpack_require__(917);
+	var _progress = __webpack_require__(942);
 	
 	var _progress2 = _interopRequireDefault(_progress);
 	
@@ -93,17 +93,17 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactPlayer = __webpack_require__(923);
+	var _reactPlayer = __webpack_require__(948);
 	
 	var _reactPlayer2 = _interopRequireDefault(_reactPlayer);
 	
 	var _reactDom = __webpack_require__(71);
 	
-	var _screenfull = __webpack_require__(936);
+	var _screenfull = __webpack_require__(961);
 	
 	var _screenfull2 = _interopRequireDefault(_screenfull);
 	
-	__webpack_require__(937);
+	__webpack_require__(962);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -202,7 +202,7 @@ webpackJsonp([2],{
 	      }),
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'player-contr' },
+	        { className: 'player-contr', style: this.props.ishide },
 	        _react2.default.createElement(_progress2.default, { className: 'player-pro', percent: played * 100, strokeWidth: 2, showInfo: false }),
 	        _react2.default.createElement(
 	          'span',
@@ -225,7 +225,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 914:
+/***/ 939:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -234,25 +234,25 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 915:
+/***/ 940:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	__webpack_require__(219);
 	
-	__webpack_require__(916);
+	__webpack_require__(941);
 
 /***/ }),
 
-/***/ 916:
+/***/ 941:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 917:
+/***/ 942:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -261,7 +261,7 @@ webpackJsonp([2],{
 	  value: true
 	});
 	
-	var _progress = __webpack_require__(918);
+	var _progress = __webpack_require__(943);
 	
 	var _progress2 = _interopRequireDefault(_progress);
 	
@@ -272,7 +272,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 918:
+/***/ 943:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -306,11 +306,11 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _icon = __webpack_require__(426);
+	var _icon = __webpack_require__(626);
 	
 	var _icon2 = _interopRequireDefault(_icon);
 	
-	var _rcProgress = __webpack_require__(919);
+	var _rcProgress = __webpack_require__(944);
 	
 	var _classnames = __webpack_require__(311);
 	
@@ -455,7 +455,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 919:
+/***/ 944:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -464,11 +464,11 @@ webpackJsonp([2],{
 	  value: true
 	});
 	
-	var _Line = __webpack_require__(920);
+	var _Line = __webpack_require__(945);
 	
 	var _Line2 = _interopRequireDefault(_Line);
 	
-	var _Circle = __webpack_require__(922);
+	var _Circle = __webpack_require__(947);
 	
 	var _Circle2 = _interopRequireDefault(_Circle);
 	
@@ -482,7 +482,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 920:
+/***/ 945:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -497,7 +497,7 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _mixin = __webpack_require__(921);
+	var _mixin = __webpack_require__(946);
 	
 	var _mixin2 = _interopRequireDefault(_mixin);
 	
@@ -572,7 +572,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 921:
+/***/ 946:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -618,7 +618,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 922:
+/***/ 947:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -633,7 +633,7 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _mixin = __webpack_require__(921);
+	var _mixin = __webpack_require__(946);
 	
 	var _mixin2 = _interopRequireDefault(_mixin);
 	
@@ -761,7 +761,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 923:
+/***/ 948:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -778,33 +778,33 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _props3 = __webpack_require__(924);
+	var _props3 = __webpack_require__(949);
 	
-	var _YouTube = __webpack_require__(925);
+	var _YouTube = __webpack_require__(950);
 	
 	var _YouTube2 = _interopRequireDefault(_YouTube);
 	
-	var _SoundCloud = __webpack_require__(929);
+	var _SoundCloud = __webpack_require__(954);
 	
 	var _SoundCloud2 = _interopRequireDefault(_SoundCloud);
 	
-	var _Vimeo = __webpack_require__(932);
+	var _Vimeo = __webpack_require__(957);
 	
 	var _Vimeo2 = _interopRequireDefault(_Vimeo);
 	
-	var _FilePlayer = __webpack_require__(931);
+	var _FilePlayer = __webpack_require__(956);
 	
 	var _FilePlayer2 = _interopRequireDefault(_FilePlayer);
 	
-	var _Streamable = __webpack_require__(933);
+	var _Streamable = __webpack_require__(958);
 	
 	var _Streamable2 = _interopRequireDefault(_Streamable);
 	
-	var _Vidme = __webpack_require__(934);
+	var _Vidme = __webpack_require__(959);
 	
 	var _Vidme2 = _interopRequireDefault(_Vidme);
 	
-	var _Wistia = __webpack_require__(935);
+	var _Wistia = __webpack_require__(960);
 	
 	var _Wistia2 = _interopRequireDefault(_Wistia);
 	
@@ -957,7 +957,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 924:
+/***/ 949:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1053,7 +1053,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 925:
+/***/ 950:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1072,15 +1072,15 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _loadScript = __webpack_require__(926);
+	var _loadScript = __webpack_require__(951);
 	
 	var _loadScript2 = _interopRequireDefault(_loadScript);
 	
-	var _Base2 = __webpack_require__(927);
+	var _Base2 = __webpack_require__(952);
 	
 	var _Base3 = _interopRequireDefault(_Base2);
 	
-	var _utils = __webpack_require__(928);
+	var _utils = __webpack_require__(953);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
@@ -1309,7 +1309,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 926:
+/***/ 951:
 /***/ (function(module, exports) {
 
 	
@@ -1381,7 +1381,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 927:
+/***/ 952:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1394,7 +1394,7 @@ webpackJsonp([2],{
 	
 	var _react = __webpack_require__(20);
 	
-	var _props2 = __webpack_require__(924);
+	var _props2 = __webpack_require__(949);
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
@@ -1540,7 +1540,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 928:
+/***/ 953:
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -1591,7 +1591,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 929:
+/***/ 954:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1608,15 +1608,15 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _fetchJsonp = __webpack_require__(930);
+	var _fetchJsonp = __webpack_require__(955);
 	
 	var _fetchJsonp2 = _interopRequireDefault(_fetchJsonp);
 	
-	var _FilePlayer2 = __webpack_require__(931);
+	var _FilePlayer2 = __webpack_require__(956);
 	
 	var _FilePlayer3 = _interopRequireDefault(_FilePlayer2);
 	
-	var _props3 = __webpack_require__(924);
+	var _props3 = __webpack_require__(949);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
@@ -1744,7 +1744,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 930:
+/***/ 955:
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
@@ -1858,7 +1858,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 931:
+/***/ 956:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1877,7 +1877,7 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Base2 = __webpack_require__(927);
+	var _Base2 = __webpack_require__(952);
 	
 	var _Base3 = _interopRequireDefault(_Base2);
 	
@@ -2040,7 +2040,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 932:
+/***/ 957:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2061,7 +2061,7 @@ webpackJsonp([2],{
 	
 	var _queryString = __webpack_require__(348);
 	
-	var _Base2 = __webpack_require__(927);
+	var _Base2 = __webpack_require__(952);
 	
 	var _Base3 = _interopRequireDefault(_Base2);
 	
@@ -2253,7 +2253,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 933:
+/***/ 958:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2264,7 +2264,7 @@ webpackJsonp([2],{
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _FilePlayer2 = __webpack_require__(931);
+	var _FilePlayer2 = __webpack_require__(956);
 	
 	var _FilePlayer3 = _interopRequireDefault(_FilePlayer2);
 	
@@ -2337,7 +2337,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 934:
+/***/ 959:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2348,7 +2348,7 @@ webpackJsonp([2],{
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _FilePlayer2 = __webpack_require__(931);
+	var _FilePlayer2 = __webpack_require__(956);
 	
 	var _FilePlayer3 = _interopRequireDefault(_FilePlayer2);
 	
@@ -2421,7 +2421,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 935:
+/***/ 960:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2438,11 +2438,11 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _loadScript = __webpack_require__(926);
+	var _loadScript = __webpack_require__(951);
 	
 	var _loadScript2 = _interopRequireDefault(_loadScript);
 	
-	var _Base2 = __webpack_require__(927);
+	var _Base2 = __webpack_require__(952);
 	
 	var _Base3 = _interopRequireDefault(_Base2);
 	
@@ -2605,7 +2605,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 936:
+/***/ 961:
 /***/ (function(module, exports) {
 
 	/*!
@@ -2763,23 +2763,23 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 937:
+/***/ 962:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 1359:
+/***/ 1384:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	var _css = __webpack_require__(826);
+	var _css = __webpack_require__(548);
 	
-	var _table = __webpack_require__(838);
+	var _table = __webpack_require__(566);
 	
 	var _table2 = _interopRequireDefault(_table);
 	
@@ -2815,19 +2815,19 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Panel = __webpack_require__(823);
+	var _Panel = __webpack_require__(545);
 	
 	var _Panel2 = _interopRequireDefault(_Panel);
 	
-	var _Card = __webpack_require__(894);
+	var _Card = __webpack_require__(919);
 	
 	var _Card2 = _interopRequireDefault(_Card);
 	
-	var _Player = __webpack_require__(913);
+	var _Player = __webpack_require__(938);
 	
 	var _Player2 = _interopRequireDefault(_Player);
 	
-	__webpack_require__(1360);
+	__webpack_require__(1385);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -2992,7 +2992,7 @@ webpackJsonp([2],{
 
 /***/ }),
 
-/***/ 1360:
+/***/ 1385:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
