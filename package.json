@@ -42,10 +42,12 @@
   "dependencies": {
     "antd": "^2.8.3",
     "async-validator": "^1.6.8",
+    "axios": "^0.16.1",
     "classnames": "^2.2.5",
     "dom-scroll-into-view": "^1.2.1",
     "echarts": "^3.5.2",
     "echarts-for-react": "^1.2.0",
+    "es6-promise": "^4.1.0",
     "leaflet": "^1.0.3",
     "lodash": "^4.17.4",
     "react": "^15.3.1",
