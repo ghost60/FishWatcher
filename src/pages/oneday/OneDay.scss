@@ -1,0 +1,34 @@
+.oneday-img{
+	width:100%;
+	height:auto;
+}
+.oneday-text{
+    margin: 20px;
+    font-size: 13px;
+}
+.oneday-bntl{
+	border: 1px solid #afafaf;
+    padding: 4px 20px;
+    border-radius: 12px 0px 0px 12px;
+    &:hover{
+    	cursor: pointer;
+    	background-color: #108ee9;
+    	color: #fff;
+    	border: 1px solid #108ee9;
+    }
+}
+.oneday-bntr{
+	border: 1px solid #afafaf;
+    padding: 4px 20px;
+    border-radius: 0px 12px 12px 0px;
+    &:hover{
+    	cursor: pointer;
+    	background-color: #108ee9;
+    	color: #fff;
+    	border: 1px solid #108ee9;
+    }
+}
+.oneday-div{
+    text-align: center;
+    margin-bottom: 12px;
+}
